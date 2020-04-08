@@ -215,3 +215,23 @@ body {
     background: #4aaaa5;
     border: 0 none;
   }
+
+
+  /* Media Screen Tags */
+  /* max width 980px, 768px, 640px */
+  @media screen  (max-width: 980px){
+
+  }
+
+  @media screen  (max-width: 768px){
+
+  }
+
+  @media screen  (max-width: 640px){
+      header #masthead {
+          position: static;
+      }
+    /* Make the position of the header static (the default positioning) when the screen is 640px wide. The header design takes up a lot of room; you don't want it to stick to the top of a small screen and leave no room for the rest of your site.    */
+  }
+
+  /* (Hint: You won't need to use exact pixels for anything other than the container) */
