@@ -219,21 +219,32 @@ body {
 
   /* Media Screen Tags */
   /* max width 980px, 768px, 640px */
-  @media screen and (max-width: 980px){
+  @media screen and (min-width: 769px) and (max-width: 980px){
     .main-section{
         width: 70%;
+        margin-left: 50px;
     }
-    body{
-        padding-left: 75px;
+    #logo{
+        margin-left: 50px;
+    }
+}
+    
+  @media screen and (min-width: 641px) and (max-width: 768px){
+    .main-section{
+        width: 95%;
+        margin: 20px; 
+    }
+    #logo{
+        margin-left: 25px;
+    }
+    nav{
+    margin-right: 50px;    
     }
     }
     
+    @media screen and (max-width: 640px){
 
   
-/* 
-  @media screen  (max-width: 768px){
-
-  } */
 
   /* @media screen  (max-width: 640px){
       header #masthead {
