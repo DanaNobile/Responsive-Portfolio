@@ -91,6 +91,11 @@ body {
     text-decoration: none;
     border-left: 1px solid #efefef;
   }
+
+  a:hover {
+    color:#4aaaa5  
+}
+
   
   nav a:first-child {
     border-left: 0 none;
@@ -133,7 +138,8 @@ body {
     background: #ffffff;
     border: 1px solid #dddddd;
   }
-  
+
+
   /* portfolio page */
   
   .work {
@@ -232,13 +238,14 @@ body {
   @media screen and (min-width: 641px) and (max-width: 768px){
     .main-section{
         width: 95%;
-        margin: 20px; 
+        margin: 20px;
     }
+    
     #logo{
         margin-left: 25px;
     }
     nav{
-    margin-right: 50px;    
+      margin-right: 50px;    
     }
     }
     
@@ -269,11 +276,4 @@ body {
 
   
 
-  /* @media screen  (max-width: 640px){
-      header #masthead {
-          position: static;
-      } */
-    /* Make the position of the header static (the default positioning) when the screen is 640px wide. The header design takes up a lot of room; you don't want it to stick to the top of a small screen and leave no room for the rest of your site.    */
-  
-
-  /* (Hint: You won't need to use exact pixels for anything other than the container) */
+ 
