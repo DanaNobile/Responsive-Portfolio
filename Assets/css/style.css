@@ -4,6 +4,11 @@ body {
     line-height: 34px;
     color: #777777;
     background: url("../images/geometric-leaves.png");
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
   }
   
   * {
@@ -33,7 +38,7 @@ body {
   h1,
   h2,
   h3 {
-    font-family: Georgia, Times, "Times New Roman", serif;
+  font-family: 'Alegreya Sans SC'; 
     font-weight: 700;
     color: #4aaaa5;
   }
@@ -68,7 +73,7 @@ body {
     float: left;
     width: 250px;
     height: 90px;
-    font-family: Georgia, Times, "Times New Roman", serif;
+    font-family: 'Alegreya Sans SC'; 
     font-size: 30px;
     font-weight: 700;
     line-height: 90px;
@@ -91,6 +96,7 @@ body {
     color: #999;
     text-decoration: none;
     border-left: 1px solid #efefef;
+    font-family: 'Alegreya Sans SC'; 
   }
 
   a:hover {
@@ -128,14 +134,15 @@ body {
   #main-container {
     padding-top: 130px;
     min-height: calc(100vh - 70px);
+    width: auto;
   }
   
   .main-section {
-    float: left;
-    width: 100%;
-    max-width: 960px;
+    /* float: left; */
+    width: auto;
+    /* max-width: 960px; */
     padding: 30px;
-    margin: 0 0 40px;
+    /* margin: 0 0 40px; */
     background: #ffffff;
     border: 1px solid #dddddd;
   }
@@ -226,17 +233,45 @@ body {
 
   /* Media Screen Tags */
   /* max width 980px, 768px, 640px */
-  @media screen and (min-width: 769px) and (max-width: 980px){
+  @media screen and (min-width: 600px) and (max-width: 980px){
     .main-section{
-        width: 70%;
-        margin-left: 50px;
+        width: 100%;
+        margin-left: 15px;
+        margin-right: 15px;
+        margin-bottom: 200px;
     }
+#masthead{
+  width: 100%;
+  
+}
+nav{
+  float: none;
+  text-align: center;
+}
+
     #logo{
-        margin-left: 50px;
+        width: 100%;
+    }
+
+    h1{
+      text-align: center;
+    }
+
+    .auth-image{
+      width: 100%;
+      margin-bottom: 50px;
+    }
+    
+    #about-me-text{
+      text-align: center;
+  
+    }
+    .work{
+      width: 100%;
     }
     }
     
-  @media screen and (min-width: 641px) and (max-width: 768px){
+  /* @media screen and (min-width: 641px) and (max-width: 768px){
     .main-section{
         width: 95%;
         margin: 20px;
@@ -251,9 +286,15 @@ body {
     }
     
     @media screen and (max-width: 640px){
-    #masthead{
+    
+    
+      #masthead{
       position: static;
       margin-bottom: 5px;
+    }
+
+    .container{
+      width: 100%;
     }
 
     #logo{
@@ -267,6 +308,11 @@ body {
     padding-top: 10px;
     }
 
+    .main-section{
+      width: 100%;
+      margin: auto;
+    }
+
     .auth-image{
       width: 100%;
     }
@@ -275,6 +321,6 @@ body {
     }
     }
 
-  
+   */
 
  
