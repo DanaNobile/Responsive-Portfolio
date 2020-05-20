@@ -109,18 +109,25 @@ body {
   }
   
   /* footer */
-  
-  footer {
+
+
+   footer {
+    background-color: #666666;
+    border-top: 8px solid #4aaaa5;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 50px; 
+    text-align: center;
+    color: white;
+    color: #cccccc;
+    font-size: 10px;
+    padding: 5px;
+    margin-bottom: 0;
     padding: 30px 0;
     clear: both;
-    font-size: 12px;
-    color: #ffffff;
-    color: #cccccc;
-    text-align: center;
-    background: #666666;
-    border-top: 8px solid #4aaaa5;
-    height: 50px;
-  }
+} 
+
   
   h3, h2 {
     padding-bottom: 20px;
@@ -133,28 +140,45 @@ body {
   
   #main-container {
     padding-top: 130px;
-    min-height: calc(100vh - 70px);
+    /* min-height: calc(100vh - 70px); */
     width: auto;
+    /* background-color: chocolate; */
+    /* background-color: white; */
+    overflow: auto;
+    /* height: 100%; */
+ 
   }
   
   .main-section {
     /* float: left; */
     width: auto;
+
     /* max-width: 960px; */
     padding: 30px;
     /* margin: 0 0 40px; */
     background: #ffffff;
     border: 1px solid #dddddd;
+    /* background-color: darkorchid; */
+    background-color: white;
+    margin-bottom: 300px;
+    overflow: auto;
+    
   }
 
 
   /* portfolio page */
-  
+  .container-port{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+
+
   .work {
     position: relative;
     float: left;
     width: 274px;
-    margin: 20px 0 25px;
+    margin: 20px 25px 25px;
     overflow: auto;
   }
   
@@ -236,8 +260,8 @@ body {
   @media screen and (min-width: 600px) and (max-width: 980px){
     .main-section{
         width: 100%;
-        margin-left: 15px;
-        margin-right: 15px;
+        padding: auto;
+        margin: auto;
         margin-bottom: 200px;
     }
 #masthead{
@@ -266,8 +290,14 @@ nav{
       text-align: center;
   
     }
+
+
+   
+
+
     .work{
-      width: 100%;
+      width: 80%;   
+      margin-left: 100px;
     }
     }
     
